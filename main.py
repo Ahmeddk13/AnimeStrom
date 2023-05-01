@@ -21,7 +21,7 @@ def Movie():
 #ANIME LIST PAGE
 
 @app.route('/Anime/')
-def Movie():
+def Anime():
     return GetList_Anime(Domain+'anime/',Classer)
 
 app.run(host='0.0.0.0', port=81)
